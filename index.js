@@ -50,7 +50,7 @@ async function run() {
       res.send(result)
     })
 
-        // delete user data
+        // delete data
         app.delete('/products/:id', async(req, res) => {
           const id = req.params.id;
           console.log('please delete from database', id);
